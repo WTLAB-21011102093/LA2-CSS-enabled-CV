@@ -1,0 +1,75 @@
+body {
+ padding: 100px;
+ font-family: Helvetia Neue, Helvetica, Arial, sans-serif;
+ background-color: black;
+ color: white;
+ border: 1px white solid;
+ border-radius: 20px;
+ padding: 20px;
+}
+a{
+color: white;
+}
+img{
+ max-width: 200px;
+ grid-column: 1/2;
+ margin:auto;
+ border-radius:50px;
+ border: 1px white solid;
+ border-radius: 20px;
+ padding: 20px;
+
+
+}
+.cv {
+ display: grid;
+ grid-template-columns: 1fr 2fr;
+ grid-template-rows: auto auto;
+ grid-column-gap: 30px;
+ grid-row-gap: 30px;
+ border-radius: 20px;
+ border: 1px white solid;
+ padding: 20px;
+}
+.name {
+ grid-column: 2 / 3;
+ border-radius: 20px;
+ padding: 20px;
+}
+.personal {
+ grid-column: 1 / 1;
+ grid-row: 2 / 3;
+}
+.timeline {
+ grid-column: 2 / 3;
+ grid-row: 2 / 3;
+ border: 1px white solid;
+ border-radius: 20px;
+ padding: 20px;
+
+}
+h1 {
+ font-size: 3rem;
+ margin-bottom: 0;
+ text-transform: uppercase;
+ border: 1px white solid;
+ border-radius: 20px;
+ padding: 20px;
+}
+h2 {
+ font-size: 1.2rem;
+ text-transform: uppercase;
+ color: #DED6D6;
+}
+h3 {
+ font-size: 1rem;
+ font-weight: 600;
+
+}
+small {
+ font-style: italic;
+
+}
+.timeline-item {
+ margin-bottom: 45px;
+}
